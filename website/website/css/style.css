@@ -1,0 +1,122 @@
+body {
+  display: block;
+}
+/* Navibation Bar Styling */
+nav {
+  background-color: #f1b104;
+}
+
+.navbar-brand img {
+  max-width: 80px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 22px;
+  margin: auto 10px;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+/* END */
+/* General Styling */
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section h1 {
+  font-size: 65px;
+  text-transform: uppercase;
+  font-weight: 1000;
+  color: #f1b104;
+  text-align: left;
+  margin-bottom: 20px;
+}
+section h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #f1b104;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+button {
+  max-width: 50%;
+  border-radius: 50px !important;
+}
+/* END */
+/* Button Styling */
+.btn-color {
+  background-color: #f1b104;
+  color: white;
+}
+
+.btn-color:hover {
+  color: black;
+}
+/* END */
+/* Main Section Styling */
+#main .col {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+#main .img-col {
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+
+#main img {
+  max-width: 130% !important;
+  width: 130%;
+}
+/* END */
+/* Card Section Styling */
+#card-section .card {
+  box-shadow: 11px 7px 16px #f9f9f9;
+  border: 0;
+  text-align: center;
+}
+
+#card-section .cards .card {
+  width: 18rem;
+}
+
+#card-section .icon {
+  width: 500px;
+  height: 500px;
+}
+/* END */
+/* Footer Styling */
+#end-first {
+  text-align: center;
+  background-color: #f1b104;
+  color: white;
+}
+
+#end-first h1 {
+  text-align: center;
+  color: white;
+}
+
+#end-second {
+  text-align: center;
+  background-color: #f1b104;
+  color: white;
+}
+/* END */
